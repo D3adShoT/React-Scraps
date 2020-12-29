@@ -1,27 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Greet from './Components/Greet'
+// import Message from './Components/Message'
+import Counter from './Components/Counter'
 
 function App() {
   return (
     <div className="App">
-      <Greet />
+      {/* <Message /> */}
+      <Counter />
       
       
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-           Hello worlds
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React 
-        </a>
-      </header> */}
     </div>
   );
 }
