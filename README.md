@@ -65,6 +65,61 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+`npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+####Further Documentation
+
+reactJS - 
+A vibrant javaScript library use to create frontEnd. Super flexible when it comes to integration with any technologies. Delcerative. 
+
+
+Keywords:
+npx --> npm package runner (Installed automatically when you install node)
+props --> properties
+
+To create the react app
+`> npx create-react-app application-name
+`
+OR
+
+`
+> npm install create-react-app -g
+> create-react-app application-name
+`
+
+navigate in the created folder
+
+start your project
+`> npm start`
+
+About the files Created : 
+package.json >> Consists the list of dependencies 
+package-lock.json OR yarn-lock.json (depending how you created the project) 
+gitignore
+readme
+
+
+Flow of execution.
+index.html >> {'root' enters in DOM}>> index.js executes >> App.js executes to finally execute the html
+ 
+Components --> Descibe part of the user interface. Reusable and can be nested inside other components.
+2 types of components 
+-> Stateless funtional components
+
+`funtion Welcome(props){
+	return <h1>Hello, {props.name}</h1>;
+}`
+
+-> Statefull Class Components
+
+`class Welcome extends React.Components{
+	render(){
+		return <h1>Hello,{props.name}</h1>;
+	}
+}`
+
+
