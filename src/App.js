@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Greet from './Components/Greet'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Greet />
+      
+      
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
            Hello worlds
@@ -15,9 +19,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
