@@ -4,5 +4,5 @@ import React from 'react'
 //     return <h1> Hello there</h1>;
 // }
  
-const Greet = () => <h1>Hello there</h1>
+const Greet = (prop) => <h1>Hello {prop.name}</h1>
 export default Greet;
