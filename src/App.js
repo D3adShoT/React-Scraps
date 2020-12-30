@@ -6,8 +6,8 @@ import './App.css';
 // import ReactList from './Components/ReactList'
 // import ParentComp from './Components/Context/ParentComp';
 // import {UserProvider} from './Components/Context/UserContext';
-
-
+import Postform from './Components/httpReq/Postform';
+// import Postlist from './Components/httpReq/Postlist';
 function App() {
   return (
     <div className="App">
@@ -20,7 +20,8 @@ function App() {
       {/* <UserProvider value = 'Hello Son'>
       <ParentComp/>
       </UserProvider> */}
-      
+      {/* <Postlist /> */}
+      <Postform />
     </div>
   );
 }
