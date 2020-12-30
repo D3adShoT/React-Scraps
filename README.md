@@ -139,3 +139,9 @@ Components --> Descibe part of the user interface. Reusable and can be nested in
 
 React reserves 'key' prop for itself. We cannot access key prop in child component. It helps react to manage all ui changes for any sort of database changes more efficiently.
 NEVER USE INDEX as key unless and untill you get a static list which wont be changing or altered in the future.(assuming the list doesnt contain unique ID else go with that id)
+
+
+To make API server calls From React
+ >>> There is no envolvement of react with the server at all , The react component Just read props and state to render the UI.
+ >>> To get the Data rendered on the Web application all we need is to provide the values to the props and state of the components
+ >>> To make such http calls we use http libraries like 'axios'. 
