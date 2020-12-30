@@ -123,3 +123,19 @@ Components --> Descibe part of the user interface. Reusable and can be nested in
 }`
 
 
+
+
+### LIMITATIONS 
+=> Return Statement Should always return 1 html element.
+=> Components Should me names with Capital starting
+
+
+
+
+
+
+
+
+
+React reserves 'key' prop for itself. We cannot access key prop in child component. It helps react to manage all ui changes for any sort of database changes more efficiently.
+NEVER USE INDEX as key unless and untill you get a static list which wont be changing or altered in the future.(assuming the list doesnt contain unique ID else go with that id)

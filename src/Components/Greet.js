@@ -4,11 +4,11 @@ import React from 'react'
 //     return <h1> Hello there</h1>;
 // }
  
-const Greet = props => {
-    console.log(props)
-    return (<div>
-        <h1>Hello {props.name} a.ka. {props.heroname}</h1>
-        {props.children}
+const Greet = ({name,heroname}) => { // destructuring at argument
+    // const {name,heroname} = props   // destrucuring at methods body
+     return (<div>
+        <h1>Hello {name} a.ka. {heroname}</h1>  {/*Directly using after destrucuring*/}
+        {/* {props.children} */}
         </div>)
 }
 export default Greet;
